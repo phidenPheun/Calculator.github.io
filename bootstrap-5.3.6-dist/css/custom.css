@@ -1,0 +1,68 @@
+@font-face {
+  font-family: khmerContent;
+  src: url(../../assets/Fonts/Content/Content-Bold.ttf);
+}
+@font-face {
+  font-family: khmer_Odor_Mean_Chey;
+  src: url(../../assets/Fonts/Odor_Mean_Chey/OdorMeanChey-Regular.ttf);
+}
+@font-face {
+  font-family: Regular_English;
+  src: url(../../assets/Fonts/Ancizar_Serif/static/AncizarSerif-Regular.ttf);
+}
+@font-face {
+  font-family: Italic_English;
+  src: url(../../assets/Fonts/Ancizar_Serif/static/AncizarSerif-Italic.ttf);
+}
+@font-face {
+  font-family: SemiBold_English;
+  src: url(../../assets/Fonts/Ancizar_Serif/static/AncizarSerif-SemiBold.ttf);
+}
+body{
+    font-family: 'khmer_Odor_Mean_Chey','Regular_English';
+}
+h1,h2,h3,h4,h5,h6{
+    color:red !important;
+    font-family: 'khmerContent','Italic_English' !important;
+   
+}
+.navbar-nav li a{
+    color: blue;
+    font-family: 'khmerContent','SemiBold_English';
+}
+.image_card {
+    aspect-ratio: 8/10;
+    object-fit:cover;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.card_2{
+    margin-top: 15px;
+    border-radius: 13px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.video_ifram {
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+}
+.footer_copy_right {
+    text-align: center;
+    background: #8f0fd3b9;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.title_card {
+    font-family:KantumruySemiBold, OpenSansRegular ;
+    font-size: 2rem;
+    color: #04502d;
+}
+.social_media_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
